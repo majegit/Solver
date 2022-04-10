@@ -1,7 +1,7 @@
 import numpy as np
 # Type aliases
-matrix = np.array
-vector = np.array
+matrix = np.ndarray
+vector = np.ndarray
 
 eps = -1e-10 # Fractional values might not give perfect solution, so small tolerance needed
 
